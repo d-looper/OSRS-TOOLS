@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Springboard_Data_Migration.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="VenEnd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/api/vendor</Value>
+    </Setting>
+    <Setting Name="CustFields" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/api/custom_fields</Value>
+    </Setting>
+    <Setting Name="apiKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlZjIxMDlmMy05ZTM0LTRiMzAtYTU4Yy1iYzUzMmEyNGRhMjMiLCJpYXQiOjE0Nzg3Mjg3MTAsInN1YiI6MTAwMDE0LCJhdWQiOjE1NDV9.MEqaP5l-P_ykFBu9XESC5pvRR1hK6HflOqI7X4ZTbfw</Value>
+    </Setting>
+    <Setting Name="url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://onestepretailsolutions.myspringboard.us</Value>
+    </Setting>
+    <Setting Name="useTest" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
