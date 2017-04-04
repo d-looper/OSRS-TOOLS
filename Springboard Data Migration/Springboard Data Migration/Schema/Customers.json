@@ -1,21 +1,15 @@
-﻿
-  {
-    "Records": [
-      {
-        "Customer #": "",
-        "First Name": "",
-        "Last Name": "",
-        "Email": "",
-        "Address First Name": "",
-        "Address LAst Name": "",
-        "Address Line 1": "",
-        "Address Line 2": "",
-        "Address City": "",
-        "Address State": "",
-        "Address Country": "",
-        "Address Postal code": "",
-        "Address Phone": ""
-      }
-    ]
-  }
-
+﻿{
+  "Customer #": "",
+  "First Name": "",
+  "Last Name": "",
+  "Email": "",
+  "Address First Name": "",
+  "Address LAst Name": "",
+  "Address Line 1": "",
+  "Address Line 2": "",
+  "Address City": "",
+  "Address State": "",
+  "Address Country": "",
+  "Address Postal code": "",
+  "Address Phone": ""
+}

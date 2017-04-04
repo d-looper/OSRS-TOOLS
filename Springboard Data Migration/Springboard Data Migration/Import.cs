@@ -23,14 +23,16 @@ namespace Springboard_Data_Migration
             if (wID == 1)
             {
                 string address = url + "/api/vendors";
-                list = getFields(address, apiKey);
-                return list;               
+                string p = ".\\Schema\\";
+                list = getFields(address, apiKey, p);
+                return list;
             }
             // customers
             else if (wID == 2)
             {
                 string address = url + "/api/customers";
-                list = getFields(address, apiKey);
+                string p = ".\\Schema\\Customers.json";
+                list = getFields(address, apiKey, p);
                 return list;
 
             }
@@ -38,7 +40,8 @@ namespace Springboard_Data_Migration
             else if (wID == 3)
             {
                 string address = url + "/api/items";
-                list = getFields(address, apiKey);
+                string p = ".\\Schema\\Inventory.json";
+                list = getFields(address, apiKey, p);
                 return list;
 
             }
@@ -46,7 +49,8 @@ namespace Springboard_Data_Migration
             else if (wID == 4)
             {
                 string address = url + "/api/sales/tickets";
-                list = getFields(address, apiKey);
+                string p = ".\\Schema\\Tickets.json";
+                list = getFields(address, apiKey, p);
                 return list;
 
             }
@@ -54,7 +58,8 @@ namespace Springboard_Data_Migration
             else if (wID == 5)
             {
                 string address = url + "/api/sales/orders";
-                list = getFields(address, apiKey);
+                string p = ".\\Schema\\Orders.json";
+                list = getFields(address, apiKey, p);
                 return list;
 
             }
@@ -62,7 +67,8 @@ namespace Springboard_Data_Migration
             else if (wID == 6)
             {
                 string address = url + "/api/purchasing/orders";
-                list = getFields(address, apiKey);
+                string p = ".\\Schema\\PO.json";
+                list = getFields(address, apiKey, p);
                 return list;
 
             }
@@ -70,29 +76,32 @@ namespace Springboard_Data_Migration
             else if (wID == 7)
             {
                 string address = url + "/api/purchasing/receipts";
-                list = getFields(address, apiKey);
+                string p = ".\\Schema\\PR.json";
+                list = getFields(address, apiKey, p);
                 return list;
             }
             // PRet
             else if (wID == 8)
             {
                 string address = url + "/api/purchasing/returns";
-                list = getFields(address, apiKey);
+                string p = ".\\Schema\\PRet.json";
+                list = getFields(address, apiKey, p);
                 return list;
             }
             // Settings
             else if (wID == 9)
             {
                 string address = url + "/api/settings";
-                list = getFields(address, apiKey);
+                string p = ".\\Schema\\Settings.json";
+                list = getFields(address, apiKey, p);
                 return list;
             }
-            
+
 
             return list;
         }
 
-        public List<string> getFields(string address, string apiKey)
+        public List<string> getFields(string address, string apiKey, string path)
         {
             List<string> list = new List<string>();
             var client = new RestClient(address);
@@ -104,21 +113,16 @@ namespace Springboard_Data_Migration
             {
 
                 JObject results = JObject.Parse(result);
-                JToken _results = results["results"][0];
+                var _results = JObject.Parse(File.ReadAllText(path));
+                //JToken _results = results["results"][0];
                 JToken _cresults = results["results"][0]["custom"];
                 //result = results["content"].ToString();
                 var ddlist = _results.Children();
                 var cflist = _cresults.Children();
-                
+
                 foreach (JProperty dd in ddlist)
                 {
-                    if(dd.Name == "metadata" || dd.Name == "created_at" || dd.Name == "updated_at" || dd.Name == "deleted_at" || dd.Name == "default_lookup_id" || dd.Name == "customer_import_batch_id" || dd.Name == "public_id" || dd.Name == "address_id" ||
-                        dd.Name == "shipping_address_id" || dd.Name == "billing_address_id" || dd.Name == "type" || dd.Name == "sort_key" || dd.Name == "metadata_private")
-                    {
-                        continue;
-                    }
-                    else
-                        list.Add(dd.Name);
+                    list.Add(dd.Name);
                 }
                 foreach (JProperty cf in cflist)
                 {
@@ -126,7 +130,7 @@ namespace Springboard_Data_Migration
                 }
 
             }
-            catch
+            catch(Exception e)
             {
                 list = null;
                 return list;

@@ -114,27 +114,36 @@ namespace Springboard_Data_Migration
 
                 foreach (var hdr in dict[0])
                 {                    
-                    dgVen.Columns.Add(k.ToString(), hdr);
+                    //dgVen.Columns.Add(k.ToString(), hdr);
 
-                    ComboBox newBox = new ComboBox();
+                    DataGridViewComboBoxColumn newBox = new DataGridViewComboBoxColumn();
                     //newBox.Text = "CodeCall!";
-                    newBox.Size = new Size(dgVen.Columns[k].Width, 50);
-                    newBox.Location = new Point((k * dgVen.Columns[k].Width)+40, 260);
+                    //newBox.Size = new Size(dgVen.Columns[k].Width, 50);
+                    //newBox.Location = new Point((k * dgVen.Columns[k].Width)+40, 260);
                     newBox.Name = k.ToString();
-                    cBox[k] = newBox;
-                    this.Controls.Add(cBox[k]);
+                    //cBox[k] = newBox;
+                    //this.Controls.Add(cBox[k]);
+                    try
+                    {
+                        dgVen.Columns.Add(newBox);
+                    }
+                    catch(Exception e)
+                    {
+                        MessageBox.Show("Error: " + e);
+                    }
 
                     if (customF != null)
                     {
                         foreach (var fields in customF)
                         {
-                            cBox[k].Items.Add(fields);
+                            newBox.Items.Add(fields);
                         }
                     }
+                    
 
                     k++;
                 }
-                dict.RemoveAt(0);
+                //dict.RemoveAt(0);
 
                 int count = dict.Count();
                 int i = 0;
