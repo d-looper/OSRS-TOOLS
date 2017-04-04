@@ -86,22 +86,54 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Schema\CustomerAddress.json" />
-    <None Include="Schema\Customers.json" />
-    <None Include="Schema\Inventory.json" />
-    <None Include="Schema\Invoices.json" />
-    <None Include="Schema\OrderItems.json" />
-    <None Include="Schema\OrderPayment.json" />
-    <None Include="Schema\Orders.json" />
-    <None Include="Schema\PO.json" />
-    <None Include="Schema\POItems.json" />
-    <None Include="Schema\PR.json" />
-    <None Include="Schema\PRet.json" />
-    <None Include="Schema\PRetItems.json" />
-    <None Include="Schema\PRItemsjson.json" />
-    <None Include="Schema\TicketItems.json" />
-    <None Include="Schema\TicketPayment.json" />
-    <None Include="Schema\Tickets.json" />
+    <None Include="Schema\CustomerAddress.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\Customers.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\Inventory.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\Invoices.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\OrderItems.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\OrderPayment.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\Orders.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\PO.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\POItems.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\PR.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\PRet.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\PRetItems.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\PRItemsjson.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\TicketItems.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\TicketPayment.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\Tickets.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

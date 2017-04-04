@@ -16,6 +16,8 @@ namespace Springboard_Data_Migration
         string url;
         int wID;
         Import imp = new Import();
+        //private ComboBox combo = new ComboBox();
+        ComboBox[] cBox;
 
         public Form1()
         {
@@ -26,6 +28,7 @@ namespace Springboard_Data_Migration
                 tbURL.Text = Springboard_Data_Migration.Properties.Settings.Default.url;
                 tbAPI.Text = Properties.Settings.Default.apiKey;
             }
+            tcVend.Enabled = false;         
             
         }
 
@@ -101,26 +104,37 @@ namespace Springboard_Data_Migration
                 dgVen.Columns.Clear();
                 dgVen.Refresh();
                 string api = tbAPI.Text;
-                              
+               
+
                 var dict = File.ReadLines(openFileDialog1.FileName).Select(line => line.Split(',')).ToList();
                 List<string> customF = imp.cFields(wID, api, url);
+                cBox = new ComboBox[dict[0].Length];
                 int k = 0;
                 //int start = 0;
 
                 foreach (var hdr in dict[0])
-                {
-                    DataGridViewComboBoxCell cbox = new DataGridViewComboBoxCell();
+                {                    
+                    dgVen.Columns.Add(k.ToString(), hdr);
 
-                    foreach (string fld in customF)
+                    ComboBox newBox = new ComboBox();
+                    //newBox.Text = "CodeCall!";
+                    newBox.Size = new Size(dgVen.Columns[k].Width, 50);
+                    newBox.Location = new Point((k * dgVen.Columns[k].Width)+40, 260);
+                    newBox.Name = k.ToString();
+                    cBox[k] = newBox;
+                    this.Controls.Add(cBox[k]);
+
+                    if (customF != null)
                     {
-                        cbox.Items.Add(fld);
+                        foreach (var fields in customF)
+                        {
+                            cBox[k].Items.Add(fields);
+                        }
                     }
-                    dgVen[k, 0] = cbox;
-                    //dgVen.Columns.Add((k+1).ToString(), hdr.ToString());
+
                     k++;
                 }
-
-                //dict.RemoveAt(0);
+                dict.RemoveAt(0);
 
                 int count = dict.Count();
                 int i = 0;

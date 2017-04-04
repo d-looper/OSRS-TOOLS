@@ -109,13 +109,20 @@ namespace Springboard_Data_Migration
                 //result = results["content"].ToString();
                 var ddlist = _results.Children();
                 var cflist = _cresults.Children();
+                
                 foreach (JProperty dd in ddlist)
                 {
-                    list.Add(dd.Name);
+                    if(dd.Name == "metadata" || dd.Name == "created_at" || dd.Name == "updated_at" || dd.Name == "deleted_at" || dd.Name == "default_lookup_id" || dd.Name == "customer_import_batch_id" || dd.Name == "public_id" || dd.Name == "address_id" ||
+                        dd.Name == "shipping_address_id" || dd.Name == "billing_address_id" || dd.Name == "type" || dd.Name == "sort_key" || dd.Name == "metadata_private")
+                    {
+                        continue;
+                    }
+                    else
+                        list.Add(dd.Name);
                 }
                 foreach (JProperty cf in cflist)
                 {
-                    list.Add(cf.Name);
+                    list.Add(cf.Name + " (Custom)");
                 }
 
             }
