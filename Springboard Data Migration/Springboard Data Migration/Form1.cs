@@ -109,28 +109,25 @@ namespace Springboard_Data_Migration
                 var dict = File.ReadLines(openFileDialog1.FileName).Select(line => line.Split(',')).ToList();
                 List<string> customF = imp.cFields(wID, api, url);
                 cBox = new ComboBox[dict[0].Length];
+                List<string> header = dict[0].ToList();
                 int k = 0;
                 //int start = 0;
 
                 foreach (var hdr in dict[0])
-                {                    
-                    //dgVen.Columns.Add(k.ToString(), hdr);
-
-                    DataGridViewComboBoxColumn newBox = new DataGridViewComboBoxColumn();
-                    //newBox.Text = "CodeCall!";
-                    //newBox.Size = new Size(dgVen.Columns[k].Width, 50);
-                    //newBox.Location = new Point((k * dgVen.Columns[k].Width)+40, 260);
-                    newBox.Name = k.ToString();
-                    //cBox[k] = newBox;
-                    //this.Controls.Add(cBox[k]);
-                    try
+                {
+                    DataGridViewTextBoxColumn tbc = new DataGridViewTextBoxColumn();              
+                    DataGridViewComboBoxCell newBox = new DataGridViewComboBoxCell();
+                    dgVen.Columns.Add(tbc);                
+                    //newBox.Name = k.ToString();
+                    
+                    /*try
                     {
                         dgVen.Columns.Add(newBox);
                     }
                     catch(Exception e)
                     {
                         MessageBox.Show("Error: " + e);
-                    }
+                    }*/
 
                     if (customF != null)
                     {
@@ -139,11 +136,11 @@ namespace Springboard_Data_Migration
                             newBox.Items.Add(fields);
                         }
                     }
-                    
+                    dgVen.Rows[0].Cells[k] = newBox;
 
                     k++;
                 }
-                //dict.RemoveAt(0);
+                dict.RemoveAt(0);
 
                 int count = dict.Count();
                 int i = 0;
@@ -156,7 +153,7 @@ namespace Springboard_Data_Migration
 
                     foreach (var field in data)
                     {                        
-                        row.Cells[j].Value = field.ToString();
+                        row.Cells[j].Value = field;
                         
                         j++;
                     }
