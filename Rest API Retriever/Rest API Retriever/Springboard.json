@@ -1,163 +1,205 @@
 ﻿{
-    "Records": [
+  "Records": [
+    {
+      "Name": "One Step Retail",
+      "Template": "/api/templates",
+      "ID": 0,
+      "Site": [
         {
-            "Name": "One Step Retail",
-            "Template": "/api/templates",
-            "ID": 0,
-            "Site": [
-                {
-                    "Account": "Testing",
-                    "Address": "https://onestepretailsolutions.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlZjIxMDlmMy05ZTM0LTRiMzAtYTU4Yy1iYzUzMmEyNGRhMjMiLCJpYXQiOjE0Nzg3Mjg3MTAsInN1YiI6MTAwMDE0LCJhdWQiOjE1NDV9.MEqaP5l-P_ykFBu9XESC5pvRR1hK6HflOqI7X4ZTbfw"
-                }
-            ],
-            "Designs": [
-               
-            ]
-        },
-        {
-            "Name": "Fleur De Lys",
-            "Template": "/api/templates",
-            "ID": 1,
-            "Site": [
-                {
-                    "Account": "Testing",
-                    "Address": "https://fleurdelystesting.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxN2I5ZTE2ZS1jMWE4LTQ2ZWMtOTg4Mi1iMWUwYTQ2NTI4ODciLCJpYXQiOjE0Nzg3OTM1NzksInN1YiI6MTAwMDA3LCJhdWQiOjMwODV9.LLmCw37x7RkbHIKCE4xlCqFb-Jz9P7VUJco87TPCKMc"
-                },
-                {
-                    "Account": "Production",
-                    "Address": "https://fleurdelys.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiZjYxMjZlMi0wMmIxLTQ0ZTItYjYxNy05NDI0NDkyMDYyZGEiLCJpYXQiOjE0ODA2OTgyMDQsInN1YiI6MTAwMDA3LCJhdWQiOjI5MTl9.5omDU1i3iPlZ-1J4SEYQVhBzSwl2ZsmeuX8w_k0sHhw"
-                }
-            ],
-            "Designs": [
-               
-
-            ]
-        },
-        {
-            "Name": "Loop Jean Co.",
-            "Template": "/api/templates",
-            "ID": 2,
-            "Site": [
-                {
-                    "Account": "Testing",
-                    "Address": "https://loopjeantesting.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiNThlNGM3NC0yZWMzLTQ1OWEtYTMwNi0yYTMwNGNlNmIyNzkiLCJpYXQiOjE0ODA2OTk2MzcsInN1YiI6MTAwMDA2LCJhdWQiOjMwMDJ9.wazC6KxeMIu2x4fSTPpxVRqGSCxrXpKCmcEU9mnnQRo"
-                },
-                {
-                    "Account": "Production",
-                    "Address": "https://loopjean.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJjMDQ4OWI2NS04N2UzLTQzNDYtOTkzNy01YzFmZjNhYmEwN2YiLCJpYXQiOjE0Nzg3MzE2MjAsInN1YiI6MTAwMDA2LCJhdWQiOjI4MDl9.QeOGj0yUJ0aaVnce-InIpFJotofF_WO0Q0aNgJBr3gM"
-                }
-            ],
-            "Designs": [
-               
-            ]
-        },
-        {
-            "Name": "Watson's Hat Shop",
-            "Template": "/api/templates",
-            "ID": 3,
-            "Site": [
-                {
-                    "Account": "Testing",
-                    "Address": "https://watsonstesting.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1Y2Q1OTg2OS04Y2FjLTRkNmEtYjVlYS0xMDA4NmQzYTI2MDUiLCJpYXQiOjE0ODA3MDMzNTUsInN1YiI6MTAwMDA4LCJhdWQiOjMyMjF9.EMD04NcRACBEpraCek5YRedzIgKhsQUE9xIKyBlnWjQ"
-                },
-                {
-                    "Account": "Production",
-                    "Address": "https://watsons.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3Yzg1YmNhNS1hNTUzLTRjNTAtYTMyYi1lZWJkZTg5ZTAwZmMiLCJpYXQiOjE0ODA3MDMzODMsInN1YiI6MTAwMDA4LCJhdWQiOjI5MDB9.qVS65l9OgssKC2HJe5jGvUSWh-pliwDCT4E7M89XPIw"
-                }
-            ],
-            "Designs": [
-               
-            ]
-        },
-        {
-            "Name": "Tile For Less",
-            "Template": "/api/templates",
-            "ID": 4,
-            "Site": [
-                {
-                    "Account": "Testing",
-                    "Address": "https://tileforlesstesting.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2MzQxMmUzOS1kOGZlLTRlMTgtYTVlMi1lNGZjM2RmMWRlNWQiLCJpYXQiOjE0Nzg3OTExODAsInN1YiI6MTAwMDMyLCJhdWQiOjI4MTV9.kzsHYYtrkYb7e1cNEN78Ldmz3UnY_vvHAlMhFUbqEV0"
-                },
-                {
-                    "Account": "Production",
-                    "Address": "https://tileforless.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlMDEyNDVjMi1kZjU5LTQ2NjctOWY4Ny1hMmUyY2VjNjgwZjYiLCJpYXQiOjE0ODA2OTk1NjQsInN1YiI6MTAwMDA3LCJhdWQiOjI4OTN9.MzOdSCd4CAPM9LMLODjoPRpC4zTG6L8nyxzZ7biFWC4"
-                }
-            ],
-            "Designs": [
-               
-            ]
-        },
-        {
-            "Name": "Louie's Nursery",
-            "Template": "/api/templates",
-            "ID": 5,
-            "Site": [
-                {
-                    "Account": "Testing",
-                    "Address": "https://louies2.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyYWQ1NDk2Yi1mMWI1LTQ1NTItOTk5MC02OGYwNmY0OTgzNDgiLCJpYXQiOjE0ODE2NDAzMjMsInN1YiI6MTAwMDA3LCJhdWQiOjMyNDV9.dQaP-BdIo3D3gn02QePN-JCNUYUQcea1g-R5d4T143A"
-                },
-                {
-                    "Account": "Production",
-                    "Address": "https://louies.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIwMjBkMjZlOS1iNGVjLTRmNDQtOGQ5ZC1lN2JkMmUxYTE4NWQiLCJpYXQiOjE0ODEwNTc0NTksInN1YiI6MTAwMDA3LCJhdWQiOjI5Mjl9.cYo1PBt3eaGMaIH4uUFqCTYrxWb_UzJjLvGapKsQOs8"
-                }
-            ],
-            "Designs": [
-
-            ]
-        },
-        {
-            "Name": "Val Surf",
-            "Template": "/api/templates",
-            "ID": 6,
-            "Site": [
-                {
-                    "Account": "Testing",
-                    "Address": "https://valsurf.myspringboard.us",
-                    "APIKey": "Bearer"
-                },
-                {
-                    "Account": "Production",
-                    "Address": "https://valsurf.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxM2MzNmE3NS1iNjQ2LTRjNWEtOGM2ZC0zYjg4ZjQ3YTE3MjAiLCJpYXQiOjE0ODg0NjY3NzAsInN1YiI6MTAwMDE1LCJhdWQiOjMzMzksImlzcyI6bnVsbH0.uVIBJxtuSgsgEL-_aWHBVdnBRkKEaTXXlebECDLAC14"
-                }
-            ],
-            "Designs": [
-
-
-            ]
-        },
-        {
-            "Name": "Tile For Less Utah",
-            "Template": "/api/templates",
-            "ID": 7,
-            "Site": [
-                {
-                    "Account": "Testing",
-                    "Address": "https://tileforlessutahtesting.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NWE5NmJhNS05NTMwLTQ1NTAtYTMwMS01MTY2NGI5YTQ2YTAiLCJpYXQiOjE0ODkxNTcyMzYsInN1YiI6MTAwMDA5LCJhdWQiOjM2NjksImlzcyI6bnVsbH0._camgh-SYnnF5YbVunYf34jyeXXjuGqwUfT7Liuu834"
-                },
-                {
-                    "Account": "Production",
-                    "Address": "https://tileforlessutah.myspringboard.us",
-                    "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIwZmIzNDU5OC1mMmRjLTQ4NDYtYjRjNi1mYzgxODc1NWI4OGMiLCJpYXQiOjE0ODg0NjY2NTcsInN1YiI6MTAwMDA5LCJhdWQiOjMzMzcsImlzcyI6bnVsbH0.RBMM2eYURzIfAD7hf8LruR-z_MRFWqBOg0n2tn7NRYc"
-                }
-            ],
-            "Designs": [
-               
-
-            ]
+          "Account": "Testing",
+          "Address": "https://onestepretailsolutions.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlZjIxMDlmMy05ZTM0LTRiMzAtYTU4Yy1iYzUzMmEyNGRhMjMiLCJpYXQiOjE0Nzg3Mjg3MTAsInN1YiI6MTAwMDE0LCJhdWQiOjE1NDV9.MEqaP5l-P_ykFBu9XESC5pvRR1hK6HflOqI7X4ZTbfw"
         }
-    ]
+      ],
+      "Designs": [
+
+      ]
+    },
+    {
+      "Name": "Fleur De Lys",
+      "Template": "/api/templates",
+      "ID": 1,
+      "Site": [
+        {
+          "Account": "Testing",
+          "Address": "https://fleurdelystesting.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxN2I5ZTE2ZS1jMWE4LTQ2ZWMtOTg4Mi1iMWUwYTQ2NTI4ODciLCJpYXQiOjE0Nzg3OTM1NzksInN1YiI6MTAwMDA3LCJhdWQiOjMwODV9.LLmCw37x7RkbHIKCE4xlCqFb-Jz9P7VUJco87TPCKMc"
+        },
+        {
+          "Account": "Production",
+          "Address": "https://fleurdelys.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiZjYxMjZlMi0wMmIxLTQ0ZTItYjYxNy05NDI0NDkyMDYyZGEiLCJpYXQiOjE0ODA2OTgyMDQsInN1YiI6MTAwMDA3LCJhdWQiOjI5MTl9.5omDU1i3iPlZ-1J4SEYQVhBzSwl2ZsmeuX8w_k0sHhw"
+        }
+      ],
+      "Designs": [
+
+
+      ]
+    },
+    {
+      "Name": "Loop Jean Co.",
+      "Template": "/api/templates",
+      "ID": 2,
+      "Site": [
+        {
+          "Account": "Testing",
+          "Address": "https://loopjeantesting.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiNThlNGM3NC0yZWMzLTQ1OWEtYTMwNi0yYTMwNGNlNmIyNzkiLCJpYXQiOjE0ODA2OTk2MzcsInN1YiI6MTAwMDA2LCJhdWQiOjMwMDJ9.wazC6KxeMIu2x4fSTPpxVRqGSCxrXpKCmcEU9mnnQRo"
+        },
+        {
+          "Account": "Production",
+          "Address": "https://loopjean.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJjMDQ4OWI2NS04N2UzLTQzNDYtOTkzNy01YzFmZjNhYmEwN2YiLCJpYXQiOjE0Nzg3MzE2MjAsInN1YiI6MTAwMDA2LCJhdWQiOjI4MDl9.QeOGj0yUJ0aaVnce-InIpFJotofF_WO0Q0aNgJBr3gM"
+        }
+      ],
+      "Designs": [
+
+      ]
+    },
+    {
+      "Name": "Watson's Hat Shop",
+      "Template": "/api/templates",
+      "ID": 3,
+      "Site": [
+        {
+          "Account": "Testing",
+          "Address": "https://watsonstesting.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1Y2Q1OTg2OS04Y2FjLTRkNmEtYjVlYS0xMDA4NmQzYTI2MDUiLCJpYXQiOjE0ODA3MDMzNTUsInN1YiI6MTAwMDA4LCJhdWQiOjMyMjF9.EMD04NcRACBEpraCek5YRedzIgKhsQUE9xIKyBlnWjQ"
+        },
+        {
+          "Account": "Production",
+          "Address": "https://watsons.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3Yzg1YmNhNS1hNTUzLTRjNTAtYTMyYi1lZWJkZTg5ZTAwZmMiLCJpYXQiOjE0ODA3MDMzODMsInN1YiI6MTAwMDA4LCJhdWQiOjI5MDB9.qVS65l9OgssKC2HJe5jGvUSWh-pliwDCT4E7M89XPIw"
+        }
+      ],
+      "Designs": [
+
+      ]
+    },
+    {
+      "Name": "Tile For Less",
+      "Template": "/api/templates",
+      "ID": 4,
+      "Site": [
+        {
+          "Account": "Testing",
+          "Address": "https://tileforlesstesting.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2MzQxMmUzOS1kOGZlLTRlMTgtYTVlMi1lNGZjM2RmMWRlNWQiLCJpYXQiOjE0Nzg3OTExODAsInN1YiI6MTAwMDMyLCJhdWQiOjI4MTV9.kzsHYYtrkYb7e1cNEN78Ldmz3UnY_vvHAlMhFUbqEV0"
+        },
+        {
+          "Account": "Production",
+          "Address": "https://tileforless.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlMDEyNDVjMi1kZjU5LTQ2NjctOWY4Ny1hMmUyY2VjNjgwZjYiLCJpYXQiOjE0ODA2OTk1NjQsInN1YiI6MTAwMDA3LCJhdWQiOjI4OTN9.MzOdSCd4CAPM9LMLODjoPRpC4zTG6L8nyxzZ7biFWC4"
+        }
+      ],
+      "Designs": [
+
+      ]
+    },
+    {
+      "Name": "Louie's Nursery",
+      "Template": "/api/templates",
+      "ID": 5,
+      "Site": [
+        {
+          "Account": "Testing",
+          "Address": "https://louies2.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyYWQ1NDk2Yi1mMWI1LTQ1NTItOTk5MC02OGYwNmY0OTgzNDgiLCJpYXQiOjE0ODE2NDAzMjMsInN1YiI6MTAwMDA3LCJhdWQiOjMyNDV9.dQaP-BdIo3D3gn02QePN-JCNUYUQcea1g-R5d4T143A"
+        },
+        {
+          "Account": "Production",
+          "Address": "https://louies.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIwMjBkMjZlOS1iNGVjLTRmNDQtOGQ5ZC1lN2JkMmUxYTE4NWQiLCJpYXQiOjE0ODEwNTc0NTksInN1YiI6MTAwMDA3LCJhdWQiOjI5Mjl9.cYo1PBt3eaGMaIH4uUFqCTYrxWb_UzJjLvGapKsQOs8"
+        }
+      ],
+      "Designs": [
+
+      ]
+    },
+    {
+      "Name": "Val Surf",
+      "Template": "/api/templates",
+      "ID": 6,
+      "Site": [
+        {
+          "Account": "Testing",
+          "Address": "https://valsurftestingnew.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiNGU5NGMzZi03YTQ3LTRiMDUtOTY2OS0yMjUzZjM5ZGVlZGQiLCJpYXQiOjE0OTkzNTU5ODAsInN1YiI6MTAwMDM3LCJhdWQiOjQxNzcsImlzcyI6bnVsbH0.V1WoXnJlkXoUtwt5QBeoJkzqFQBXX2xkdkEGmrJ9i6E"
+        },
+        {
+          "Account": "Production",
+          "Address": "https://valsurf.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxM2MzNmE3NS1iNjQ2LTRjNWEtOGM2ZC0zYjg4ZjQ3YTE3MjAiLCJpYXQiOjE0ODg0NjY3NzAsInN1YiI6MTAwMDE1LCJhdWQiOjMzMzksImlzcyI6bnVsbH0.uVIBJxtuSgsgEL-_aWHBVdnBRkKEaTXXlebECDLAC14"
+        }
+      ],
+      "Designs": [
+
+
+      ]
+    },
+    {
+      "Name": "Tile For Less Utah",
+      "Template": "/api/templates",
+      "ID": 7,
+      "Site": [
+        {
+          "Account": "Testing",
+          "Address": "https://tileforlessutahtesting.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NWE5NmJhNS05NTMwLTQ1NTAtYTMwMS01MTY2NGI5YTQ2YTAiLCJpYXQiOjE0ODkxNTcyMzYsInN1YiI6MTAwMDA5LCJhdWQiOjM2NjksImlzcyI6bnVsbH0._camgh-SYnnF5YbVunYf34jyeXXjuGqwUfT7Liuu834"
+        },
+        {
+          "Account": "Production",
+          "Address": "https://tileforlessutah.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIwZmIzNDU5OC1mMmRjLTQ4NDYtYjRjNi1mYzgxODc1NWI4OGMiLCJpYXQiOjE0ODg0NjY2NTcsInN1YiI6MTAwMDA5LCJhdWQiOjMzMzcsImlzcyI6bnVsbH0.RBMM2eYURzIfAD7hf8LruR-z_MRFWqBOg0n2tn7NRYc"
+        }
+      ],
+      "Designs": [
+
+
+      ]
+    },
+    {
+      "Name": "Brooks And Breakers",
+      "Template": "/api/templates",
+      "ID": 8,
+      "Site": [
+        {
+          "Account": "Testing",
+          "Address": "https://brooksandbreakers.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyMzMwN2IxMy03YzBjLTQ3YzktYmVlNi04ODEwNzcyYTBjZDYiLCJpYXQiOjE0OTU0Njc1MTcsInN1YiI6MTAwMDcwLCJhdWQiOjM3MTAsImlzcyI6bnVsbH0.RciNyfUA4DNPvMILbM7YE8gkUc-obnhvwZcNAf3J_No"
+        },
+        {
+          "Account": "Production",
+          "Address": "https://brooksandbreakers.myspringboard.us",
+          "APIKey": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyMzMwN2IxMy03YzBjLTQ3YzktYmVlNi04ODEwNzcyYTBjZDYiLCJpYXQiOjE0OTU0Njc1MTcsInN1YiI6MTAwMDcwLCJhdWQiOjM3MTAsImlzcyI6bnVsbH0.RciNyfUA4DNPvMILbM7YE8gkUc-obnhvwZcNAf3J_No"
+        }
+      ],
+      "Designs": [
+
+
+      ]
+    },
+    {
+      "Name": "AAPE",
+      "Template": "/api/templates",
+      "ID": 9,
+      "Site": [
+        {
+          "Account": "Testing",
+          "Address": "https://aapetesting.myspringboard.us",
+          "APIKey": "Bearer "
+        },
+        {
+          "Account": "Production",
+          "Address": "https://aape.myspringboard.us",
+          "APIKey": "Bearer "
+        }
+      ],
+      "Designs": [
+
+
+      ]
+    }
+  ]
 
 }
